@@ -1,5 +1,9 @@
 let fields = [null, null, null, null, null, null, null, null, null];
 
+function init() {
+  render();
+}
+
 function render() {
   let contentDiv = document.getElementById("content");
   let table = document.createElement("table");
@@ -31,4 +35,3 @@ function render() {
 
 // Beispielaufruf der render() Funktion
 fields = ["o", null, "x", null, "o", "x", null, null, "o"];
-render();
